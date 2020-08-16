@@ -94,13 +94,9 @@ body {
   height: 2px;
   background-color: #d70022;
   transition: 0.4s;
-}
-.input-control::before {
   right: 50%;
 }
-.input-control::after {
-  right: 50%;
-}
+
 .input-control.focus::before,
 .input-control.focus::after {
   width: 50%;
@@ -126,7 +122,6 @@ body {
   padding: 0.5rem 0.7rem;
   font-size: 1.2rem;
   color: #d70022;
-  font-family: 'poppins', sans-serif;
 }
 
 .input-control.password {
@@ -155,7 +150,6 @@ a:hover {
   background-size: 200%;
   font-size: 1.2rem;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   margin: 1rem 0;
   cursor: pointer;
